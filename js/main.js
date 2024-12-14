@@ -1,4 +1,12 @@
 $(function () {
+  $('.tickets__input-num').styler();
+
+  $('.number-of-day').on('click', function(){
+    $('.number-of-day').removeClass('number-of-day--active');
+    $(this).addClass('number-of-day--active')
+  })
+
+
   $('.animals-slider__inner').slick({
     infinite: true,
     slidesToShow: 3,

@@ -10,6 +10,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
+    <link href="css/jquery.formstyler.css" rel="stylesheet">
+    <!-- <link href="css/jquery.formstyler.theme.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -214,7 +216,133 @@
             </div>
         </div>
     </section>
-
+    <section class="tickets">
+        <div class="container">
+            <div class="tickets__wrapper">
+                <h2 class="tickets__title">
+                    Покупайте билеты
+                    в онлайн и в кассах
+                </h2>
+                <div class="tickets__inner">
+                    <div class="calendar">
+                        <h4 class="tickets__subtitle">
+                            1. Выберите дату
+                        </h4>
+                        <div class="calendar__container">
+                            <div class="calendar__top">
+                                <div class="month">Август 2023</div>
+                                <div class="calendar__btn-box">
+                                    <button class="calendar__previous">
+                                        <img src="images/calendar-previous.svg" alt="">
+                                    </button>
+                                    <button class="calendar__naxt">
+                                        <img src="images/calendar-next.svg" alt="">
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="calendar__box">
+                                <div class="day-of-week">Пн</div>
+                                <div class="day-of-week">Вт</div>
+                                <div class="day-of-week">Ср</div>
+                                <div class="day-of-week">Чт</div>
+                                <div class="day-of-week">Пт</div>
+                                <div class="day-of-week">Сб</div>
+                                <div class="day-of-week">Вс</div>
+                                <div class="number-of-day"></div>
+                                <div class="number-of-day"></div>
+                                <div class="number-of-day"></div>
+                                <div class="number-of-day">1</div>
+                                <div class="number-of-day">2</div>
+                                <div class="number-of-day">3</div>
+                                <div class="number-of-day">4</div>
+                                <div class="number-of-day">5</div>
+                                <div class="number-of-day">6</div>
+                                <div class="number-of-day">7</div>
+                                <div class="number-of-day">8</div>
+                                <div class="number-of-day">9</div>
+                                <div class="number-of-day">10</div>
+                                <div class="number-of-day">11</div>
+                                <div class="number-of-day">12</div>
+                                <div class="number-of-day">13</div>
+                                <div class="number-of-day">14</div>
+                                <div class="number-of-day">15</div>
+                                <div class="number-of-day">16</div>
+                                <div class="number-of-day">17</div>
+                                <div class="number-of-day">18</div>
+                                <div class="number-of-day">19</div>
+                                <div class="number-of-day">20</div>
+                                <div class="number-of-day">21</div>
+                                <div class="number-of-day">22</div>
+                                <div class="number-of-day">23</div>
+                                <div class="number-of-day">24</div>
+                                <div class="number-of-day">25</div>
+                                <div class="number-of-day">26</div>
+                                <div class="number-of-day">27</div>
+                                <div class="number-of-day">28</div>
+                                <div class="number-of-day">29</div>
+                                <div class="number-of-day">30</div>
+                                <div class="number-of-day">31</div>
+                                <div class="number-of-day"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tickets__box">
+                        <h4 class="tickets__box-subtitle">
+                            2.Выберите билеты
+                        </h4>
+                        <div class="tickets__box-items">
+                            <div class="tickets__item">
+                                <div class="tickets__item-text">
+                                    Взрослый
+                                </div>
+                                <div class="tickets__item-text">
+                                    400 грн
+                                </div>
+                                <input class="tickets__input-num" type="number" value="1" min="1">
+                            </div>
+                            <div class="tickets__item">
+                                <div class="tickets__item-text">
+                                    Льготный
+                                    <a class="tickets__item-link" href="#">
+                                        <img src="images/link-tickets.svg" alt="">
+                                    </a>
+                                </div>
+                                <div class="tickets__item-text">
+                                    0 грн
+                                </div>
+                                <input class="tickets__input-num" type="number" value="2" min="1">
+                            </div>
+                            <form class="tickets__item-form" action="#">
+                                <label class="tickets__label">
+                                    Электронная почта<br>
+                                    на этот адрес придут билеты
+                                </label>
+                                <input class="tickets__input" type="email" placeholder="zooemail@gmail.com">
+                            </form>
+                            <div class="tickets__item-switch">
+                                <label class="switch">
+                                    <input class="switch__input" type="checkbox">
+                                    <span class="switch__slider"></span>
+                                </label>
+                                <p class="switch__text">
+                                    Ознакомился и согласен с
+                                    <a class="switch__text-link" href="#">
+                                        правилами покупки билетов
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="tickets__item-btn">
+                                <span class="tickets__span">
+                                    Итого: 400 грн
+                                </span>
+                                <button class="tickets__btn">Перейти к оплате</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <footer class="footer">
@@ -283,6 +411,7 @@
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/jquery.formstyler.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/main.js"></script>
 </body>

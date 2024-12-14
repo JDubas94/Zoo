@@ -356,3 +356,242 @@ ul.slick-dots{
         display: block;
     }
 }
+
+.tickets{
+    padding: 77px 0 119px;
+}
+.tickets__wrapper{
+    background-color: #ECECE2;
+    border-radius: 20px;
+    padding: 42px 59px 72px 110px;
+}
+.tickets__title{
+    width: 468px;
+    font-size: 48px;
+    font-weight: 600px;
+    margin-bottom: 107px;
+}
+.tickets__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.tickets__subtitle,
+.tickets__box-subtitle{
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.calendar{
+    margin-right: 130px;
+}
+.calendar__container{
+    width: 470px;
+    height: 455px;
+    background-color: #FFFFFF;
+    padding: 40px 35px 35px;
+}
+.calendar__top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.month{
+    font-size: 24px;
+}
+.calendar__previous,
+.calendar__naxt{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.calendar__box{
+    display: grid;
+    grid-template-columns: repeat(7, minmax(20px, 1fr));
+    gap: 36px 19px;
+}
+.number-of-day,
+.day-of-week{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.number-of-day+ .number-of-day--active{
+    background-color: #1A8950;
+    border-radius: 50%;
+    color: #fff;
+    width: 36px;
+    height: 36px;
+}
+
+.tickets__box-subtitle{
+    border-bottom: 1px solid #000000;
+}
+.tickets__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 21px 0;
+    border-bottom: 1px solid #000000;
+}
+.jq-number__field{
+    width: 82px;
+    height: 37px;
+    background-color: #1A8950;
+    border-radius: 20px;
+    position: relative;
+    right: 28px;
+}
+.jq-number__field input{
+    width: 100%;
+    height: 37px;
+    background-color: #1A8950;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    color: #fff;
+}
+.jq-number {
+    padding: 0;
+    position: relative;
+}
+
+.jq-number__spin {
+    position: absolute;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    background-color: #1A8950;
+    border-radius: 50%;
+    bottom: 8px;
+}
+.jq-number__spin.minus {
+    left: -57px;
+}
+.jq-number__spin.plus {
+    right: 0;
+    top: 8px;
+}
+.jq-number__spin::after {
+    content: "";
+    position: absolute;
+    top: 9px;
+    left: 6px;
+    width: 8px;
+    height: 2px;
+    background-color: #fff;
+}
+
+.jq-number__spin.plus::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 9px;
+    width: 2px;
+    height: 8px;
+    background-color: #fff;
+}
+
+.tickets__item-text{
+    position: relative;
+}
+.tickets__item-link{
+    position: absolute;
+    right: -28px;
+    img{
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.tickets__item-form{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;   
+}
+
+
+.tickets__input{
+    width: 310px;
+    height: 55px;
+    border: 1px solid #1A8950;
+    border-radius: 20px;
+    padding: 18px 10px 18px 32px;
+}
+.tickets__item-switch{
+    margin-top: 51px;
+}
+.tickets__item-switch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 53px;
+}
+.switch{
+    position: relative;
+    width: 47px;
+    height: 24px;
+    border-radius: 40px;
+}
+.switch__input{
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+}
+.switch__slider{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #AAA8A8;
+    border-radius: 40px;
+    transition: 0.4s;
+}
+.switch__slider::before{
+    content: '';
+    position: absolute;
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #ECECE2;
+    left: 4px;
+    top: 4px;
+    transition: 0.4s;
+}
+.switch__input:checked +.switch__slider{
+    background-color: #1A8950;
+}
+.switch__input:checked +.switch__slider::before{
+    transform: translateX(22px);
+}
+.switch__text{
+    font-size: 14px;
+    color: #808080;
+}
+.switch__text-link{
+    font-size: 14px;
+    color: #F09D63;
+}
+.tickets__item-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tickets__span{
+    font-size: 20px;
+}
+.tickets__btn{
+    width: 203px;
+    height: 55px;
+    border: none;
+    padding: 18px 32px;
+    color: #fff;
+    background-color: #1A8950;
+    border-radius: 20px;
+    cursor: pointer;
+}
