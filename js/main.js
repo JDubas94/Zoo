@@ -1,4 +1,10 @@
 $(function () {
+  
+  $('.menu__btn').on('click', function(){
+    $('.menu__btn').toggleClass('menu__btn--open');
+    $('.menu__list').toggleClass('menu__list--active');
+  })
+
   $('.tickets__input-num').styler();
 
   $('.number-of-day').on('click', function(){
@@ -15,6 +21,17 @@ $(function () {
     nextArrow: '<button type="button" class="slick-next"><svg width="11" height="20" viewBox="0 0 11 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.379453 19.0075C0.869452 19.4975 1.65945 19.4975 2.14945 19.0075L10.4595 10.6975C10.8495 10.3075 10.8495 9.6775 10.4595 9.2875L2.14945 0.977499C1.65945 0.487499 0.869452 0.487499 0.379453 0.977499C-0.110547 1.4675 -0.110547 2.2575 0.379453 2.7475L7.61945 9.9975L0.369454 17.2475C-0.110545 17.7275 -0.110547 18.5275 0.379453 19.0075Z" fill="#808080"/></svg></button>',
     dots: true,
     infinite: false,
+    responsive: [
+        {
+          breakpoint: 432,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: false,
+            infinite: true
+          }
+        },
+  ]
   });
 
 

@@ -11,7 +11,6 @@
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
     <link href="css/jquery.formstyler.css" rel="stylesheet">
-    <!-- <link href="css/jquery.formstyler.theme.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -22,9 +21,15 @@
             <div class="container">
                 <div class="header__top">
                     <a class="logo" href="#">
-                        <img src="images/logo.png" alt="logo img">
+                        <img src="images/logo.svg" alt="logo img">
                     </a>
                     <nav class="header__menu">
+                        <button class="menu__btn">
+                           <span></span>
+                           <span></span>
+                           <span></span>
+                        </button>
+                        </button>
                         <ul class="menu__list">
                             <li class="menu__list-item">
                                 <a class="menu__list-link" href="#">О зоопарке</a>
@@ -41,6 +46,9 @@
                         </ul>
                     </nav>
                     <div class="header__link-box">
+                        <a class="header__link-img" href="tel:+380993991612">
+                            <img class="header__img-phone" src="images/phone.svg" alt="phone icon">
+                        </a>
                         <a class="header__link-phone" href="tel:+380993991612">+380(99)399-16-12</a>
                         <a class="header__link-btn" href="#">Купить билет</a>
                     </div>
@@ -114,7 +122,7 @@
             </div>
         </div>
     </section>
-    <section class="animals-slider">
+     <section class="animals-slider">
         <div class="container">
             <h3 class="animals-slider__title">
                 Наши питомцы
@@ -298,7 +306,7 @@
                                 <div class="tickets__item-text">
                                     400 грн
                                 </div>
-                                <input class="tickets__input-num" type="number" value="1" min="1">
+                                <input class="tickets__input-num" type="number" value="1" min="0">
                             </div>
                             <div class="tickets__item">
                                 <div class="tickets__item-text">
@@ -310,7 +318,7 @@
                                 <div class="tickets__item-text">
                                     0 грн
                                 </div>
-                                <input class="tickets__input-num" type="number" value="2" min="1">
+                                <input class="tickets__input-num" type="number" value="2" min="0">
                             </div>
                             <form class="tickets__item-form" action="#">
                                 <label class="tickets__label">
@@ -439,7 +447,7 @@
                                 </p>
                                 <a class="infrastructure-content__link" href="#">Подробнее</a>
                             </div>
-                            <img class="infrastructure__img" src="images/infrastructure-content2.jpg"
+                            <img class="infrastructure-content__img" src="images/infrastructure-content2.jpg"
                                 alt="animals images">
                         </div>
                         <div class="infrastructure-content__item">
@@ -456,7 +464,7 @@
                                 </p>
                                 <a class="infrastructure-content__link" href="#">Подробнее</a>
                             </div>
-                            <img class="infrastructure__img" src="images/infrastructure-content3.jpg"
+                            <img class="infrastructure-content__img" src="images/infrastructure-content3.jpg"
                                 alt="animals images">
                         </div>
                     </div>
@@ -556,7 +564,7 @@
             </div>
         </div>
     </section>
-    <section class="map">
+   <section class="map">
         <div class="map__inner">
             <div class="map-top">
                 <div class="container">
@@ -564,24 +572,25 @@
                         Карта зоопарка
                     </h3>
                     <div class="map-top__img-box">
+                        <img class="logo__map" src="images/logo.svg" alt="">
                         <img class="map-top__img" src="images/map.jpg" alt="map images">
                     </div>
                 </div>
             </div>
             <div class="map-form">
-                <img class="map-form__img" src="images/gorila-map.png" alt="gorila images">
-                <div class="map-form__content">
-                    <h3 class="map-form__title">
-                        Будьте в курсе
-                    </h3>
-                    <p class="map-form__text">
-                        Наша рассылка по электронной почте держит вас
-                        в курсе того, что происходит в зоопарке Киева.
-                    </p>
-                    <form class="map-form__form" action="#">
-                        <input class="map-form__input" type="email" placeholder="Введите ваш емейл">
-                        <button class="map-form__btn">Отправить</button>
-                    </form>
+                    <img class="map-form__img" src="images/gorila-map.png" alt="gorila images">
+                    <div class="map-form__content">
+                        <h3 class="map-form__title">
+                            Будьте в курсе
+                        </h3>
+                        <p class="map-form__text">
+                            Наша рассылка по электронной почте держит вас
+                            в курсе того, что происходит в зоопарке Киева.
+                        </p>
+                        <form class="map-form__form" action="#">
+                            <input class="map-form__input" type="email" placeholder="Введите ваш емейл">
+                            <button class="map-form__btn">Отправить</button>
+                        </form>
                 </div>
             </div>
         </div>
@@ -591,7 +600,7 @@
             <div class="footer__inner">
                 <div class="footer__logo">
                     <a class="logo" href="#">
-                        <img src="images/logo.png" alt="logo img">
+                        <img class="footer__logo-img" src="images/logo.svg" alt="logo img">
                     </a>
                     <p class="footer__logo-text">
                         @ 2023 - Kiev Zoo
