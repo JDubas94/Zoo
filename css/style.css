@@ -1964,7 +1964,6 @@ ul.slick-dots {
 
     .switch__text {
         text-align: left;
-        width: 310px;
     }
 
     .tickets__item-btn {
@@ -2148,10 +2147,6 @@ ul.slick-dots {
     .tickets__item-link {
         right: -25px;
         top: 3px;
-    }
-
-    .switch__text {
-        width: 169px;
     }
 
     .map-top__title {
