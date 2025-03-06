@@ -439,7 +439,7 @@ ul.slick-dots {
 }
 
 .calendar__container {
-    width: 470px;
+    width: clamp(270px, 85vw, 470px);
     height: 455px;
     background-color: #FFFFFF;
     padding: 40px 35px 35px;
@@ -1905,8 +1905,7 @@ ul.slick-dots {
         padding: 0;
     }
 
-    .calendar__container {
-        width: 380px;
+    .calendar__container {                                  
         height: 433px;
     }
 
@@ -1929,10 +1928,6 @@ ul.slick-dots {
         gap: 34px 18px;
     }
 
-    /* .tickets__box {
-        width: 380px;
-    } */
-
     .tickets__item {
         padding-block: 30px;
     }
@@ -1951,7 +1946,6 @@ ul.slick-dots {
     }
 
     .tickets__label {
-        /* width: 217px; */
         margin-right: 0;
         margin-bottom: 22px;
     }
@@ -2122,7 +2116,6 @@ ul.slick-dots {
     }
 
     .calendar__container {
-        width: 330px;
         height: 300px;
         padding: 18px;
     }
@@ -2156,44 +2149,6 @@ ul.slick-dots {
         right: -25px;
         top: 3px;
     }
-
-    /* .jq-number__field {
-        width: 43px;
-        height: 21px;
-        margin-left: 50px;
-    }
-
-    .jq-number__field input {
-        height: 21px;
-    } */
-
-    /* .jq-number__spin {
-        width: 17px;
-        height: 17px;
-        bottom: 4px;
-    }
-
-    .jq-number__spin.plus {
-        top: 2px;
-        right: 6px;
-    }
-
-    .jq-number__spin.plus::before {
-        top: 4px;
-        left: 8px;
-        height: 10px;
-    }
-
-    .jq-number__spin::after {
-        top: 8px;
-        left: 4px;
-        width: 10px;
-    }
-
-    .jq-number__spin.minus {
-        left: 1px;
-        bottom: 2px;
-    } */
 
     .switch__text {
         width: 169px;
@@ -2245,9 +2200,6 @@ ul.slick-dots {
     }
     .calendar{
         margin-right: 0;
-    }
-    .calendar__container{
-        width: 270px;
     }
     
 }
