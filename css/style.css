@@ -496,6 +496,7 @@ ul.slick-dots {
     align-items: center;
     padding: 21px 0;
     border-bottom: 1px solid #000000;
+    text-align: left;
 }
 
 .tickets__item-text {
@@ -1272,6 +1273,7 @@ ul.slick-dots {
         justify-content: center;
         align-items: center;
         text-align: center;
+        padding-inline: 20px;
     }
 
     .calendar {
@@ -1285,7 +1287,7 @@ ul.slick-dots {
     }
 
     .tickets__label {
-        width: 172px;
+        /* width: 172px; */
         text-align: left;
         margin-right: 25px;
     }
@@ -1833,7 +1835,7 @@ ul.slick-dots {
     }
 
     .animals-slider__img {
-        width: 300px;
+        width: 100%;
         height: 300px;
         margin: 0 auto;
     }
@@ -1954,7 +1956,7 @@ ul.slick-dots {
     }
 
     .tickets__label {
-        width: 217px;
+        /* width: 217px; */
         margin-right: 0;
         margin-bottom: 22px;
     }
@@ -2068,12 +2070,6 @@ ul.slick-dots {
     }
 }
 
-@media(max-width: 430px) {
-    .tickets__title {
-        margin: 0 0 42px;
-    }
-
-}
 
 @media(max-width: 420px) {
     .header {
@@ -2131,7 +2127,7 @@ ul.slick-dots {
     }
 
     .calendar__container {
-        width: 265px;
+        width: 330px;
         height: 300px;
         padding: 18px;
     }
@@ -2165,11 +2161,11 @@ ul.slick-dots {
     }
 
     .tickets__item-link {
-        right: -17px;
+        right: -25px;
         top: 3px;
     }
 
-    .jq-number__field {
+    /* .jq-number__field {
         width: 43px;
         height: 21px;
         margin-left: 50px;
@@ -2177,9 +2173,9 @@ ul.slick-dots {
 
     .jq-number__field input {
         height: 21px;
-    }
+    } */
 
-    .jq-number__spin {
+    /* .jq-number__spin {
         width: 17px;
         height: 17px;
         bottom: 4px;
@@ -2205,7 +2201,7 @@ ul.slick-dots {
     .jq-number__spin.minus {
         left: 1px;
         bottom: 2px;
-    }
+    } */
 
     .switch__text {
         width: 169px;
