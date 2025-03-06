@@ -571,7 +571,7 @@ ul.slick-dots {
 
 .tickets__item-link {
     position: absolute;
-    right: -30px;
+    right: -37px;
     top: 0;
 
     img {
@@ -676,7 +676,7 @@ ul.slick-dots {
 
 .tickets__btn {
     width: 203px;
-    height: 55px;
+    height: 70px;
     border: none;
     padding: 18px 32px;
     color: #fff;
@@ -2241,6 +2241,7 @@ ul.slick-dots {
     .about__list-item:last-child {
         margin-bottom: 40px;
     }
+
     .animals-slider__img {
         height: 260px;
     }
