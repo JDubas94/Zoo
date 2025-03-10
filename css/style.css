@@ -626,6 +626,7 @@ ul.slick-dots {
     height: 1px;
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
+    opacity: 0;
 }
 
 .switch__slider {
@@ -2195,6 +2196,9 @@ ul.slick-dots {
     }
     .calendar{
         margin-right: 0;
+    }
+    .switch__input:checked+.switch__slider::before {
+        transform: translateX(14px);
     }
     
 }
