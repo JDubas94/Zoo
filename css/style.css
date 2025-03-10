@@ -582,7 +582,7 @@ ul.slick-dots {
     background-repeat: no-repeat;
     background-size: cover;
     top: 0;
-    right: -2px;
+    right: -6px;
     width: 20px;
     height: 20px;
 }
@@ -865,11 +865,11 @@ ul.slick-dots {
     left: 47px;
 }
 
-.map-form {
+/* .map-form {
     margin-top: 142px;
     height: 452px;
     background-color: #212020;
-}
+} */
 
 .map-form {
     margin-top: 142px;
